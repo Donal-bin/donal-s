@@ -1,0 +1,126 @@
+
+/* 
+font-family: 'Arsenal', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Sacramento', cursive;
+*/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+hr{
+    border: 4px dotted rgb(230, 230, 230);
+    width: 5rem;
+    margin: 100px auto;
+    border-bottom: none;
+}
+.middle-container{
+    margin-top: 2rem;
+    color: #40514E;
+    position: relative;
+    padding: 100px auto;  
+}
+
+.profile p{
+    width: 30%;
+    margin: 2rem auto;
+}
+
+.pc-img{border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img{
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    }
+.skill-des{
+    clear:left;
+}
+
+.skill-row p{
+    line-height: 2;
+}
+.skill-row-second p{
+    line-height: 2;
+}
+.skill-row{
+    width: 50%;
+    text-align: left;
+    margin: 100px auto;
+}
+.bottom-container {
+   margin: 1.5rem auto;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    padding-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #82e2ea;
+
+}
+h2{
+    font-size: 2.5rem;
+    color:#82e2ea;
+}
+h3{
+    color: #08b1bd;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+
+.btn {
+	box-shadow: 3px 2px 5px 1px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 20px auto;
+}
+.bottom-container a{ 
+    text-decoration: none;
+    color: #11999E;
+    padding-top: 2px;
+    margin: auto 1rem;
+}
+.bottom-container p{
+    color: #eaf6f6;
+}
+p {line-height: 2;}
